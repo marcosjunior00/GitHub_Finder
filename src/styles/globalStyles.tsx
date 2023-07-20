@@ -10,7 +10,7 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     background-color: #0e1227;
-    padding: 3.5rem;
+    padding: 5rem;
   }
 
   p {
@@ -23,3 +23,8 @@ export const GlobalStyles = createGlobalStyle`
 `;
 
 export const Title = styled.h2``;
+
+export const UserContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;

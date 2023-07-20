@@ -41,4 +41,5 @@ export const SearchBtn = styled.button`
   background: none;
   border: none;
   outline: none;
+  cursor: pointer;
 `;
