@@ -10,7 +10,7 @@ const Header = ({ loadUser }: SearchProps) => {
 
   const handleKeyDown = (e: KeyboardEvent) => {
     if (e.key === "Enter") {
-      loadUser(userName);
+      loadUser(userName).catch((error) => console.error(error));
     }
   };
 
