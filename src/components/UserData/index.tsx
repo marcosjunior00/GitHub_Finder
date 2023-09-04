@@ -7,7 +7,7 @@ interface UserDataProps {
   avatar_url: string;
   followers: number;
   following: number;
-  location: string;
+  location?: string;
 }
 
 const UserData: React.FC<UserDataProps> = ({
