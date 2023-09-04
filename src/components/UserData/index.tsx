@@ -1,6 +1,16 @@
+import React from "react";
 import * as C from "./styles";
 
-const UserData = ({
+interface UserDataProps {
+  name: string;
+  login: string;
+  avatar_url: string;
+  followers: number;
+  following: number;
+  location: string;
+}
+
+const UserData: React.FC<UserDataProps> = ({
   name,
   login,
   avatar_url,
